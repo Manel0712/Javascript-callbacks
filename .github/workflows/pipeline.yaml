@@ -23,4 +23,4 @@ jobs:
       - name: Lint code
         run: npm run lint
       - name: testing code
-        run: npm run test:watch
+        run: npm run test
