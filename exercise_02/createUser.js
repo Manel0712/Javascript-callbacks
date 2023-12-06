@@ -23,13 +23,13 @@
  * @returns string
  */
 
-const createUser = function(email, onError, onSuccess) {
-    let value = Math.random();
-    let Message = onError();
-    if (value>=0.5&&email!="") {
-        Message = onSuccess(email);
-    }
-    return Message;
-}
+const createUser = function (email, onError, onSuccess) {
+  let value = Math.random();
+  let Message = onError();
+  if (value >= 0.5 && email != "") {
+    Message = onSuccess(email);
+  }
+  return Message;
+};
 
 export default createUser;

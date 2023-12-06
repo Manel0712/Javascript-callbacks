@@ -14,8 +14,8 @@
  * @returns string
  */
 
-const onSuccess = function(email) {
-    return `User with email ${email} has been correctly created`;
-}
+const onSuccess = function (email) {
+  return `User with email ${email} has been correctly created`;
+};
 
 export default onSuccess;
