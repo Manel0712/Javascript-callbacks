@@ -14,8 +14,8 @@
  * @returns array
  */
 
-const onSuccess = function(value) {
-    return value.split(" ");
-}
+const onSuccess = function (value) {
+  return value.split(" ");
+};
 
-export default onSuccess
+export default onSuccess;

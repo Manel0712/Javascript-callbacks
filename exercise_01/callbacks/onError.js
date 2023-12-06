@@ -11,8 +11,8 @@
  * @returns empty array
  */
 
-const onError = function() {
-    return [];
-}
+const onError = function () {
+  return [];
+};
 
 export default onError;
