@@ -27,6 +27,6 @@ const transformStringToArray = function (value, onError, onSuccess) {
     return onSuccess(value);
   }
   return onError();
-}
+};
 
 export default transformStringToArray;
