@@ -24,9 +24,9 @@
 const transformStringToArray = function (value, onError, onSuccess) {
   let array = onError();
   if (typeof value === "string" && value !== "") {
-    array = onSuccess(value);
+    return onSuccess(value);
   }
-  return array;
-};
+  return onError();
+}
 
 export default transformStringToArray;
