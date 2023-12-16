@@ -43,8 +43,8 @@ describe("Given add fucntion", () => {
   test("when it is invoked with object type value", () => {
     // Arrange
     const value = {
-        name: "Manel",
-        city: "Mataro"
+      name: "Manel",
+      city: "Mataro",
     };
 
     // Act
@@ -55,7 +55,7 @@ describe("Given add fucntion", () => {
   });
   test("when it is invoked with empty string type value", () => {
     // Arrange
-    const value = "     "
+    const value = "     ";
 
     // Act
     const result = validateString(value);
@@ -65,7 +65,7 @@ describe("Given add fucntion", () => {
   });
   test("when it is invoked with string type value", () => {
     // Arrange
-    const value = "Hello, my name is Manel"
+    const value = "Hello, my name is Manel";
 
     // Act
     const result = validateString(value);
