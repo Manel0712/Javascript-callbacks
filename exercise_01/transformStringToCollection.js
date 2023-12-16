@@ -22,7 +22,6 @@
  */
 
 const transformStringToArray = function (value, onError, onSuccess) {
-  let array = onError();
   if (typeof value === "string" && value !== "") {
     return onSuccess(value);
   }
