@@ -1,5 +1,3 @@
-import onError from "./callbacks/OnError.js";
-import onSuccess from "./callbacks/OnSuccess.js";
 import transformStringToArray from "./transformStringToCollection.js";
 import validateString from "../helpers/validateString.js";
 
